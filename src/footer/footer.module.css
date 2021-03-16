@@ -1,0 +1,17 @@
+.footer{
+    min-height:20vh;
+    background-color: #6bd4d5;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+.socialNet{
+    display: flex;
+}
+.nameOfSocial{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    text-align: center;
+}

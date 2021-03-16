@@ -1,0 +1,12 @@
+.teleworkBlock{
+    background-color: aqua;
+    min-height: 30vh;
+}
+.teleworkContainer{
+    min-height: 30vh;
+    background-color: #b4cde8;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    border:2px solid
+}
