@@ -1,0 +1,23 @@
+@import "./src/common/sass/variables";
+.exampleBlock{
+    min-height: 100vh;
+    background-color: $secondbackgroundColor;
+    .exampleContainer{
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-start;
+        .exampls{
+            border:1px solid;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            @media screen and (min-width: 385px) {
+                justify-content:space-around;
+            }
+        }
+    }
+}
+
