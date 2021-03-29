@@ -18,9 +18,8 @@ export const MyWorksExample = () => {
     return (
         <div className={styles.exampleBlock}>
             <div className={`${styleCom.container} ${styles.exampleContainer}`}>
-                <Title title={"My projects"}/>
+                    <Title title={"My projects"}/>
                 <div className={styles.exampls}>
-
                     <SeparateExample
                         style={socialImage}
                         title={"Social Network"}
