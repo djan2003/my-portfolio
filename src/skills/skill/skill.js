@@ -5,7 +5,8 @@ export const Skill = (props) => {
     return (
         <div className={style.skillContainer}>
             <div className={style.icon}></div>
-            <h3>{props.title} </h3>
+            <h5 className={style.titleForSkill}>{props.title} </h5>
+            <hr className={style.line}/>
             <span className={style.description} > {props.description}</span>
         </div>
 

@@ -19,6 +19,9 @@
     width: 280px;
 
 }
+.form input, .form textarea{
+    width: 100%;
+}
 input{
     margin:  5px;
 }
